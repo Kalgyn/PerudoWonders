@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerudoWonders.OwinSelfHost", "PerudoWonders.OwinSelfHost\PerudoWonders.OwinSelfHost.csproj", "{0D891D6D-C54A-4700-BD4C-50309BD8D92A}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "PerudoWonders.Front", "http://localhost:47509", "{6697CD83-2BB6-41D1-8C14-5990F02A0BF7}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_47509"
+		Debug.AspNetCompiler.PhysicalPath = "PerudoWonders.Front\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_47509\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_47509"
+		Release.AspNetCompiler.PhysicalPath = "PerudoWonders.Front\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_47509\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "PerudoWonders.Front\"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{0D891D6D-C54A-4700-BD4C-50309BD8D92A} = {0D891D6D-C54A-4700-BD4C-50309BD8D92A}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Win32 = Debug|Win32
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D891D6D-C54A-4700-BD4C-50309BD8D92A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D891D6D-C54A-4700-BD4C-50309BD8D92A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D891D6D-C54A-4700-BD4C-50309BD8D92A}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{0D891D6D-C54A-4700-BD4C-50309BD8D92A}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{0D891D6D-C54A-4700-BD4C-50309BD8D92A}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{0D891D6D-C54A-4700-BD4C-50309BD8D92A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D891D6D-C54A-4700-BD4C-50309BD8D92A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D891D6D-C54A-4700-BD4C-50309BD8D92A}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{0D891D6D-C54A-4700-BD4C-50309BD8D92A}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{0D891D6D-C54A-4700-BD4C-50309BD8D92A}.Release|Win32.ActiveCfg = Release|Any CPU
+		{6697CD83-2BB6-41D1-8C14-5990F02A0BF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6697CD83-2BB6-41D1-8C14-5990F02A0BF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6697CD83-2BB6-41D1-8C14-5990F02A0BF7}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{6697CD83-2BB6-41D1-8C14-5990F02A0BF7}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{6697CD83-2BB6-41D1-8C14-5990F02A0BF7}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{6697CD83-2BB6-41D1-8C14-5990F02A0BF7}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{6697CD83-2BB6-41D1-8C14-5990F02A0BF7}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{6697CD83-2BB6-41D1-8C14-5990F02A0BF7}.Release|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{6697CD83-2BB6-41D1-8C14-5990F02A0BF7}.Release|Mixed Platforms.Build.0 = Debug|Any CPU
+		{6697CD83-2BB6-41D1-8C14-5990F02A0BF7}.Release|Win32.ActiveCfg = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

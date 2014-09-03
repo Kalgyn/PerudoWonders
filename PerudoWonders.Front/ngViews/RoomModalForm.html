@@ -1,0 +1,19 @@
+﻿<div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            <h4 class="modal-title">Make some room !</h4>
+        </div>
+        <div class="modal-body">
+            <p>Create a new room in here !</p>
+        </div>
+        <form ng-submit="createRoom(room)">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Enter a room name ..." ng-model="room.Name">
+                <span class="input-group-btn">
+                    <button class="btn btn-default" type="button">Go!</button>
+                </span>
+            </div>
+        </form>
+    </div>
+</div>
